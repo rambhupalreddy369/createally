@@ -11,6 +11,15 @@
     font-size: 20px;
     justify-content: center;
 } */
+.title{
+    background: rgb(0 0 0 / 30%)
+}
+.main-title{
+    font-size: 100px;
+    color: #ffb923;
+    padding: 20px 0 70px;
+    background: rgba(266, 266, 266 , 0.1);
+}
 .ally{
     overflow: hidden;
     position: relative;
@@ -143,13 +152,7 @@
 
 /* sliding section start */
 
-.mySlides {
-    display: none;
-}
-.mySlides1 {
-    display: none;
-}
-.mySlides2 {
+.mySlides0, .mySlides1, .mySlides {
     display: none;
 }
 img {  
@@ -203,7 +206,7 @@ img {
 
 
 /* The dots/bullets/indicators */
-.dot {
+.dots2 , .dot1 , .dot0 {
   height: 10px;
   width: 10px;
   margin: 0 2px;
@@ -212,33 +215,10 @@ img {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.active {
-  background-color: #a76262;
+.active2, .active0, .active1 , .active00{
+  background-color: #ffb923;
 }
-.dot1{
-    height: 10px;
-    width: 10px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-.active1{
-    background-color: #a76262;
-}
-.dot0{
-    height: 10px;
-    width: 10px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-.active0{
-    background-color: #a76262;
-}
+
 
 /* Fading animation */
 .fades {
@@ -275,8 +255,8 @@ img {
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  .active {
-    background-color: #a76262;
+  .active3 {
+    background-color: #ffb923;
   }
 
   .machinary{
@@ -297,6 +277,34 @@ img {
   .show {
     display: block;
   }
+  /* clients-section */
+  .clients{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 20px 20%;
+  }
+  .client-title{
+      font-size: 40px;
+      font-weight: 400;
+      text-transform: uppercase;
+      line-height: 55px;
+      padding-left: 20px;
+  }
+  .client-logo{
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      display: flex;
+      margin-right: 20px;
+        align-items: center;
+        justify-content: center;
+  }
+  .logo{
+      width: 100px;
+      height: 100px;
+  }
+
   /* .btn {
     border: none;
     outline: none;
