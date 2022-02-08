@@ -82,6 +82,8 @@ function showSlide(n) {
   slides1[slideIndex1-1].style.display = "block";  
   dots1[slideIndex1-1].className += " active1";
 }
+
+
 //in-house machinary
 var slideIndex=0;
 Slides();
@@ -100,7 +102,7 @@ function Slides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active3";
-  timer = setTimeout(Slides, 3000); // Change image every 2 seconds
+  timer = setTimeout(Slides, 5000); // Change image every 2 seconds
 }
 function stopShow()
 {
@@ -108,7 +110,7 @@ function stopShow()
 }
 function runShow()
 {
-  Slides();  
+  Slides( );  
 }
 
 //works section
