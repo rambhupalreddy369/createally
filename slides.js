@@ -1,5 +1,5 @@
 
-//
+//1st slide
 var slideIndex0 = 1;
 showSlides0(slideIndex0);
 
@@ -18,7 +18,7 @@ function showSlides0(n) {
   if (n > slides0.length) {slideIndex0 = 1}    
   if (n < 1) {slideIndex0 = slides0.length}
   for (i = 0; i < slides0.length; i++) {
-      slides0[i].style.display = "none";  
+      slides0[i].style.display = "none" ; 
   }
   for (i = 0; i < dots0.length; i++) {
       dots0[i].className = dots0[i].className.replace(" active0", "");
