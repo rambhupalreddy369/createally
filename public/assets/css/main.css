@@ -668,11 +668,11 @@ hr {
   color: #fff;
   overflow: hidden;
   position: relative;
-  background: url(../images/image-000.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 #hero-area .contents {
   padding: 170px 0px 50px;

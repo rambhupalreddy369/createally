@@ -54,28 +54,8 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#services">
+                <a class="nav-link" href="#serves">
                   Services
-                </a>
-              </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="#team">
-                  Team
-                </a>
-              </li> -->
-              <li class="nav-item">
-                <a class="nav-link" href="#machinary">
-                  Machinary
-                </a>
-              </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="#portfolios">
-                  Works
-                </a>
-              </li> -->
-              <li class="nav-item">
-                <a class="nav-link" href="#customers">
-                  Clients
                 </a>
               </li>
               <li class="nav-item">
@@ -94,6 +74,13 @@
        
         <div class="container">
           <div class="row">
+              <div class="video-container">
+                <video autoplay  muted loop id="myvideo">
+                  <source src="./assets/vedio/pde-hero-final.mp4" type="video/mp4">
+                </video>
+                <div class="oxy-vedio-overlay">
+                </div>
+              </div>
             <div class="col-md-12 col-sm-12">
               <div class="contents text-center">
                 <div class="title">
@@ -118,66 +105,56 @@
     <!-- Header Area wrapper End -->
 
     <!-- Feature Section Start -->
-    <div id="feature">
+    <div id="feature" class="about-us">
       <div class="container-fluid">
         <div class="section-header text-center">
           <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">About Us</h2>
         </div>
-        <div class="row">
-          <div class="col-lg-6 col-md-12 col-sm-12">
-            <div class="text-wrapper">
-              <div>
-                <!-- <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">We are helping to grow <br> your business.</h2> -->
-                <p class="mb-4">We Started in the Year 2019, and We are a group of Engineers from different backgrounds all the wayfrom Mechanical, Electronics, Software, and Product development holding 5+ years of practical experience with Post gradution as education backgrounds<br/>
-                  We are an industrial design and product engineering company that helps start-ups, Companies and Individuals hatch ideas by leveraging a competitive advantage through brand focused design. At Creative Ally, we incubate product ideas and bring them to life through superb industrial design and practical engineering. Whether you need your napkin sketches realized, or a marketable version of your prototype , we partner with you to design and launch products with relevance, distinction, and market-fit.</p>
-                <!-- <a href="#" class="btn btn-common">More About Us</a> -->
-              </div>
+        <div class="row section" id="media">
+          <div class="media">
+            <div class="col image">
+              <img src="assets/img/about/pde-hero.jpg" alt="meeting-image" id="image-about">
             </div>
-          </div>
-          <div class="col-lg-6 col-md-12 col-sm-12 padding-none feature-bg">
-            <div class="feature-thumb">
-              <div class="feature-item wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <div class="icon">
-                  <img src="assets/images/vission.png" alt="" id="mission">
-                  <!-- <i class="lni-notepad"></i> -->
-                  <!-- <i class="lni-eye"></i> -->
-
-                </div>
-                <div class="feature-content">
-                  <h3>Vision</h3>
-                  <p>Deliver high quality, time committed,
-                    and excellent product experience</p>
-                </div>
+            <div class="col text-about">
+              <div class="header">
+                <h2 class="about-headline">Leverage Our Experience </h2>
+                  <span class="sub-headline">and transform your ideas into successful products.</span>
               </div>
-              <div class="feature-item wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
-                <div class="icon">
-                  <!-- <i class="lni-target"></i> -->
-                  <img src="assets/images/mission.png" alt="" id="mission">
-                </div>
-                <div class="feature-content">
-                  <h3>Mission</h3>
-                  <p>Make our Customer's experience
-                    Simple and Transperent </p>
-                </div>
-              </div>
-              <div class="feature-item wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="700ms">
-                <div class="icon">
-                  <img src="assets/images/goals.png" alt="" id="mission">
-
-                  <!-- <i class="lni-medall-alt"></i> -->
-                  <!-- <i class="lni-medall"></i> -->
-                </div>
-                <div class="feature-content">
-                  <h3>Goals</h3>
-                  <p>Industry Leader in Product
-                    Development and Manufacturing
-                    Service </p>
-                </div>
+              <div class="line"></div>
+              <div class="description">
+                <p class="about-text">Tap into our extensive network of prototype builders, contract manufacturers, testing facilities, consultants and technology vendors to ensure that you get a project that cleverly balances costs, timelines, features and quality.</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="container" id="product">
+        <div class="row section">
+          <div class="col text-about1">
+            <div class="header">
+              <h2 class="about-headline">We Value WISDOM </h2>
+            </div>
+            <div class="description">
+              <p class="about-text">Each of our team members have been selected based on their extensive experience, proven expertise in their respective domains, and the successes they have had in developing clever products just like yours.</p>
+            </div>
+          </div>
+          <div class="col image-right">
+            <img src="assets/img/about/pic1.jpg" alt="meeting-image" id="image-about">
+          </div>
+        </div>
+        <div class="row section">
+          <div class="col image">
+            <img src="assets/img/about/pic2.jpg" alt="meeting-image" id="image-about">
+          </div>
+          <div class="col text-about">
+            <div class="header">
+              <h2 class="about-headline">Full-Spectrum of Experience </h2>
+            </div>
+            <div class="description">
+              <p class="about-text">We leverage and combine our team’s experience and expertise in electrical and mechanical engineering, industrial and human-centered design, and firmware & mobile applications development. </p>
+            </div>
+          </div>
+          
+        </div>
+        <!-- <div class="container" id="product">
           <div class="text-center">
             <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Product Development</h2>
           </div>
@@ -215,114 +192,14 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
-    <!-- Feature Section End -->
-
-    <!-- Services Section Start -->
-    <section id="services" class="section-padding bg-gray">
-      <div class="container">
-        <div class="section-header text-center">
-          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Our Services</h2>
-          <p>A desire to help and empower others between community contributors in technology <br> began to grow in 2020.</p>
-        </div>
-        <div class="row">
-          <!-- Services item -->
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item">
-              <div class="slideshow-container">
-                <div class="mySlides0 fades">
-                  <img src="assets/serve_images/manufacturing/Picture1.jpg" style="width:100%" id="image2">
-                </div>   
-                <div class="mySlides0 fades">
-                  <img src="assets/serve_images/manufacturing/Picture2.jpg" style="width:100%" id="image2">
-                </div>          
-                <div class="mySlides0 fades">
-                  <img src="assets/serve_images/manufacturing/Picture3.jpg" style="width:100%" id="image2">
-                </div>
-                <a class="prev" onclick="plusSlides0(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides0(1)">&#10095;</a>
-                <br>  
-              </div>
-              <div style="text-align:center">
-                <span class="dot0"></span> 
-                <span class="dot0"></span> 
-                <span class="dot0"></span> 
-              </div> 
-              <div class="services-content">
-                <h3><a href="#">Reverse Engineering</a></h3>
-                <p>Reproducing Existing components with CAD</p>
-              </div>
-            </div>
-          </div>
-          <!-- Services item -->
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item" >
-              <div class="slideshow-container ">
-                <div class="mySlides fades">
-                  <img src="assets/serve_images/manufacturing/Picture3.jpg" id="image2">
-                </div>   
-                <div class="mySlides fades">
-                  <img src="assets/serve_images/manufacturing/Picture1.jpg" id="image2">
-                </div>          
-                <div class="mySlides fades">
-                  <img src="assets/serve_images/manufacturing/Picture2.jpg" id="image2">
-                </div>
-                <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides2(1)">&#10095;</a>
-                <br>  
-                <div style="text-align:center">
-                  <span class="dots2"></span> 
-                  <span class="dots2"></span> 
-                  <span class="dots2"></span> 
-                </div>  
-                <div class="services-content">
-                  <h3><a href="#">Manufacturing Services</a></h3>
-                  <p>Injection Moulding, Metal manufatcuring, and
-                    Fabrication.</p>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-          <!-- Services item -->
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item">
-              <div class="slideshow-container">
-                <div class="mySlides1 fades">
-                  <img src="assets/img/other/jigs and fixtures.jpg" id="image2">
-                </div>   
-                <div class="mySlides1 fades">
-                  <img src="img_snow_wide.jpg" style="width:100%" id="image2">
-                </div>          
-                <div class="mySlides1 fades">
-                  <img src="img_mountains_wide.jpg" style="width:100%" id="image2">
-                </div>
-                <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides1(1)">&#10095;</a>
-                <br>  
-                  
-                <div style="text-align:center">
-                  <span class="dot1"></span> 
-                  <span class="dot1"></span> 
-                  <span class="dot1"></span> 
-                </div>  
-                <div class="services-content">
-                  <h3><a href="#">Other Services</a></h3>
-                  <p>Jigs and fixtures, Machinery spares, Panel
-                    wiring, PLC programing, SPM Designs</p>
-                </div>
-              </div> 
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
     <!-- Services Section End -->
 
     <!-- Machinary section start -->
-    <section id="machinary" class="section-padding">
+    <!-- <section id="machinary" class="section-padding">
       <div class="container">
         <div class="section-header text-center">
           <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">InHouse Machinary</h2>
@@ -362,218 +239,153 @@
           </div> 
         </div>
       </div>
-    </section>
-    <!-- Machinary section end -->
-    
-    <!-- Portfolio Section -->
-    <section id="portfolios" class="section-padding">
-      <!-- Container Starts -->
-      <!-- <div class="container"> -->
-        <!-- <div class="section-header text-center"> -->
-          <!-- <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Our Works</h2> -->
-          <!-- <p>A desire to help and empower others between community contributors in technology <br> began to grow in 2020.</p> -->
-        <!-- </div> -->
-        <!-- <div class="row">           -->
-          <!-- <div class="col-md-12"> -->
-            <!-- Portfolio Controller/Buttons -->
-            <!-- <div class=" controls text-center" id="myBtnContainer">
-              <button class="filter active btn btn-common btn-effect mix product" id="btn" >
-              3D Printing Works
-              </button>
-              <button class="filter btn btn-common btn-effect aluminium" id="btn" onclick="filterSelection('aluminium')">
-              Aluminium Machining
-              </button>
-              <button class="filter btn btn-common btn-effect" id="btn" onclick="filterSelection('milling')">
-              Milling Machine
-              </button>
-              <button class="filter btn btn-common btn-effect" id="btn" onclick="filterSelection('drilling')">
-              Drilling Machine
-              </button>
-            </div> -->
-            <!-- Portfolio Controller/Buttons Ends-->
-          <!-- </div> -->
-        <!-- </div> -->
-
-        <!-- Portfolio Recent Projects -->
-        <!-- <div id="portfolio" class="row">
-          <div class="col-lg-4 col-md-6 col-xs-12 3d mix filterDiv printing">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="assets/img/works/3D-printing/Picture1.jpg" id="works" alt="" />  
-                <div class="single-content">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="assets/img/works/3D-printing/Picture1.jpg"><i class="lni-eye item-icon"></i></a>
-                      </div>
-                      <a href="#">Creative Design</a>
-                    </div>
-                  </div>
-                </div>
-              </div>               
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 mix filterDiv printing">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="assets/img/works/3D-printing/Picture2.jpg" alt="" id="works" /> 
-                <div class="single-content">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="zoom-icon"> 
-                        <a class="lightbox" href="assets/img/works/3D-printing/Picture2.jpg"><i class="lni-eye item-icon"></i></a>
-                      </div> 
-                      <a href="#">Retina Ready</a>
-                    </div>
-                  </div>
-                </div>
-              </div>               
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 mix filterDiv printing">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="assets/img/works/3D-printing/Picture3.jpg" alt="" id="works" />  
-                <div class="single-content">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="assets/img/works/3D-printing/Picture3.jpg"><i class="lni-eye item-icon"></i></a>
-                      </div>
-                      <a href="#">Responsive</a>
-                    </div>
-                  </div>
-                </div>
-              </div>               
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 mix aluminium printing">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="assets/img/works/3D-printing/Picture4.jpg" alt="" id="works"/> 
-                <div class="single-content">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="assets/img/works/3D-printing/Picture4.jpg"><i class="lni-eye item-icon"></i></a>
-                      </div>
-                      <a href="#">Well Documented</a>
-                    </div>
-                  </div>
-                </div>
-              </div>               
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 aluminium printing">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="assets/img/works/3D-printing/Picture5.jpg" alt="" id="works"/>  
-                <div class="single-content">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="assets/img/works/3D-printing/Picture5.jpg"><i class="lni-eye item-icon"></i></a>
-                      </div>
-                      <a href="#">Customer Support</a>
-                    </div>
-                  </div>
-                </div>
-              </div>               
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 filterDiv aluminium">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="assets/img/works/aluminium-machining/Picture1.jpg" alt="" />  
-                <div class="single-content">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="assets/img/works/aluminium-machining/Picture1.jpg"><i class="lni-eye item-icon"></i></a>
-                      </div>
-                      <a href="#">User Friendly</a>
-                    </div>
-                  </div>
-                </div>
-              </div>               
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 filterDiv aluminium">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="assets/img/works/aluminium-machining/Picture2.jpg" alt="" />  
-                <div class="single-content">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="assets/img/works/aluminium-machining/Picture2.jpg"><i class="lni-eye item-icon"></i></a>
-                      </div>
-                      <a href="#">User Friendly</a>
-                    </div>
-                  </div>
-                </div>
-              </div>               
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 filterDiv aluminium">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="assets/img/works/aluminium-machining/Picture3.jpg" alt="" />  
-                <div class="single-content">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="assets/img/works/aluminium-machining/Picture3.jpg"><i class="lni-eye item-icon"></i></a>
-                      </div>
-                      <a href="#">User Friendly</a>
-                    </div>
-                  </div>
-                </div>
-              </div>               
-            </div>
-          </div>
-        </div> -->
-      </div>
-      <!-- Container Ends -->
-    </section>
-    <!-- Portfolio Section Ends -->  
+    </section> -->
+    <!-- Machinary section end --> 
 
     <!-- Clients section start -->
-    <section id="customers" class="section-padding">
+    <!-- <section id="customers" class="section-padding">
       <div class="container">
         <div class="section-header text-center">
           <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Our Clients</h2>
         </div>
-        <!-- <div class="col-lg-12 col-md-12 col-sm-12 padding-none">
-          <div class="feature-item wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="client-logo">
-              <img src="assets/img/client-logo/schneider.png" alt="" class="logo">
-            </div>
-          </div>
-          <div class="feature-item wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="client-logo">
-              <img src="assets/img/client-logo/DRDO.png" alt="" class="logo">
-            </div>
-            <div class="client-title">drdl</div> 
-          </div>
-        
-        </div> -->
         <div class="clients">
           <div class="client-logo">
-            <img src="/assets/img/client-logo/schneider.png" class="logo">
+            <img src="./assets/img/client-logo/schneider.png" class="logo">
           </div>
           <div class="client-title">schneider electric</div> 
         </div>
         <div class="clients">
           <div class="client-logo">
-            <img src="/assets/img/client-logo/DRDO.png" class="logo">
+            <img src="./assets/img/client-logo/DRDO.png" class="logo">
           </div>
           <div class="client-title">drdl</div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Clients section end -->
-    
+    <!-- Services section start -->
+    <section id="serves">
+      <div class="serve-header text-center">
+        <h2 class="serve-title wow fadeInDown" data-wow-delay="0.3s">Services</h2>
+      </div>
+      <div class="services-section" class="serve">
+        <div class="row" >
+          <div class="col serve-block box-shadow" id="start-up">
+            <div class="title">
+                Start-Up Projects
+            </div>
+            <div class="services" id="startup">
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">Phased/Gated Development Processes</div>
+              </div>
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">Investor-Focused Early Prototypes</div>
+              </div>
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">Concept & Marketing Sample</div>
+              </div>
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">Minimal Viable Product (MVP)</div>
+              </div>
+            </div>
+          </div>
+          <div class="col serve-block box-shadow" id="medical">
+            <div class="title">
+              Medical Devices
+            </div>
+            <div class="services" id="startup" >
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">ISO 13485 (QMS) </div>
+              </div>
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">ISO 14971 (Risk Management)</div>
+              </div>
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">IEC 62366 (Usability)</div>
+              </div>
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">IEC 60601-1 (Electrical Safety)</div>
+              </div>
+            </div>
+          </div>
+          <div class="col serve-block box-shadow" id="design">
+            <div class="title">
+              Design Services
+            </div>
+            <div class="services" id="startup">
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">Industrial Design</div>
+              </div>
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">Application & Interaction Design</div>
+              </div>
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">Ideation and Rapid Concepting</div>
+              </div>
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">Human-Factors Engineering</div>
+              </div>
+            </div>
+          </div>
+          <div class="col serve-block box-shadow" id="electrical">
+            <div class="title">
+              Electronics
+            </div>
+            <div class="services" id="startup">
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">Wireless LF, RFID, UHF, LoRa, WiFi , BLE, Bluetooth, GPS  </div>
+              </div>
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">Sensor Features & Enhancements </div>
+              </div>
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">Battery-Life Optimization </div>
+              </div>
+            </div>
+          </div>
+          <div class="col serve-block box-shadow" id="engineer">
+            <div class="title">
+              Engineering
+            </div>
+            <div class="services" id="startup">
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">Expert Review of Designs & Guidance </div>
+              </div>
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">Fault Analysis & Re-Designs </div>
+              </div>
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">BOM & Manufacturing Improvements </div>
+              </div>
+              <div class="list">
+                <div class="mark"></div>
+                <div class="startup-item">Co-Development </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section end -->
 
     <!-- Contact Section Start -->
     <section id="contact" class="section-padding">    
