@@ -25,11 +25,26 @@
   #head-bottomright{
     font-size: 70px;
   }
+  #helping{
+        width: 96%;
+        padding-right: 78px;
+        padding-left: 73px;
+        padding-bottom: 68px;
+        margin-bottom: -300px;
+        padding-top: 54px;
+  }
+  .help-subheadline{
+    font-size: 25px;
+  }
+  .help-textarea{
+    font-size: 18px;
+  }
 
 }
 
 /* tablets */
 @media (max-width: 991px) {
+
   .video-section{
     width: 90vw;
     height: 45vh;
@@ -59,7 +74,10 @@
     font-size: 50px;
   }
   /* about start */
-
+  #about2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
   #image-about1 , #image-about2{
     margin: auto;
     height: auto;
@@ -101,6 +119,23 @@
     font-size: 28px;
     text-align: start;
     font-weight: 300;
+  }
+  #helping{
+    padding: 37px 45px 45px 45px;
+    margin-bottom: -300px;
+  }
+  .help-mainheadline{
+    text-align: left;
+  }
+  .text-block{
+    font-size: 19px;
+  }
+  .help-subheadline{
+    text-align: left;
+    font-size: 22px;
+  }
+  .help-textarea{
+    font-size: 16px;
   }
   /* servce start */
   /* .services-section{
@@ -279,9 +314,9 @@
   /* about section */
   #about2{
     display: block;
-    /* width: 80%; */
-    margin-top: 27px;
-    margin-bottom: 0px;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
     margin-left: 2px;
     /* align-items: center; */
   }
@@ -289,6 +324,7 @@
   #image-about1 , #image-about2{
     margin: auto;
     height: auto;
+    max-width: 100%;
     width: 40%;
     margin-right: 0px;
     margin-left: 30px;
@@ -307,6 +343,9 @@
     align-items: flex-start;
     text-align: left;
   }
+  .text-about2{
+    padding-top: 20px;
+  }
   .subsection{
     max-width: 100%;
     width: 100%;
@@ -321,7 +360,30 @@
   .text-about{
     align-items: flex-start;
   }
-  
+  .help-mainheadline{
+    text-align: left;
+    font-size: 30px;
+  }
+  .text-block{
+    font-size: 18px;
+  }
+  .table-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .help-leftsection, .help-rightsection{
+    width: 100%;
+  }
+  .help-rightsection{
+    padding-left: 0;
+  }
+  .help-subheadline{
+    text-align: left;
+    font-size: 22px;
+  }
+  .help-textarea{
+    font-size: 16px;
+  }
 
   /* about section end */
   .section-padding {
@@ -449,6 +511,12 @@
   }
   #product {
     padding: 40px 0;
+  }
+}
+@media (min-width:480px) and (max-width: 767px){
+  .container{
+    max-width: 720px;
+    width:100% ;
   }
 }
 @media (max-width:479px){

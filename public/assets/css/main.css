@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web:600,700");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&display=swap');
 html {
   overflow-x: hidden;
 }
@@ -7,7 +7,7 @@ body {
   background: #fff;
   font-size: 14px;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family:'Montserrat';
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -120,7 +120,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .btn-common {
-  background-color: #ffb923;
+  background-color: #434343;
   position: relative;
   z-index: 1;
   text-transform: uppercase;
@@ -231,7 +231,7 @@ a.back-to-top i {
   height: 40px;
   line-height: 40px;
   color: #fff;
-  background: #ffb923;
+  background: #434343;
   border-radius: 30px;
   text-align: center;
   transition: all 0.2s ease-in-out;
@@ -522,7 +522,7 @@ hr {
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #585b60;
   font-weight: 600;
   padding: 8px 10px;
@@ -1717,7 +1717,7 @@ hr {
 }
 
 .form-control:focus {
-  border-color: #ffb923;
+  border-color: #434343;
   box-shadow: none;
   outline: none;
 }
@@ -1772,7 +1772,7 @@ textarea {
 }
 
 .contact-right .contact-icon {
-  background: #ffb923;
+  background: #434343;
   color: #fff;
   border-radius: 4px;
   font-size: 20px;
@@ -1844,7 +1844,7 @@ textarea {
   border-radius: 50px;
   position: relative;
   height: 52px;
-  border: 1px solid #ffb923;
+  border: 1px solid #434343;
 }
 
 .subscribe .btn-submit {
